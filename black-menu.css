@@ -2,9 +2,9 @@
 #navigation,
 #preview #preview-navigation {
   /*background: url("../images/black-menu.png") repeat center left;*/
-  background-color: rgba(242,242,242,0.4);
+  /* line below controls menu transparency*/
+  background-color: rgba(242,242,242,0.6);
   border-bottom-width: 0px;
-  padding: 4px 4px 4px 8px;
   margin-top: -50px; 
 }
 
@@ -71,12 +71,14 @@
 #menubar .sf-menu li.last ul li a,
 #menubar .sf-menu li ul li a,
 #menubar .sf-menu li ul li.last a {
+  /* tells you about sub menus*/
   background-color: #f2f2f2;
   color: #000;  
 }
 
 #menubar .sf-menu li a:hover,
 #menubar .sf-menu li.last a:hover {
+  /* controls look when you hover over primary links*/
   color: #e96fdc;
   text-decoration: none;
   background: #fff;
